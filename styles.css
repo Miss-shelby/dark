@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 40px auto;
+    width: 500px;
+}
+button {
+    background-color: black;
+    height: 30px;
+    width: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+
+.text {
+    padding: 20px;
+    line-height: 35px;
+    height: 300px;
+    width: 470px;
+    border-radius: 20px;
+    box-shadow: -5px -6px 5px #747679, 5px 5px 6px #dee2e6;
+}
+
+.dark-mode {
+    background-color: #15181f;
+    color: #ffff;
+}
+.dark-mode button{
+    background-color: #ffff;
+}
